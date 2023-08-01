@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    background-color: #3c3d44;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+/* Estilos del Navbar */
+nav {
+  border-bottom: 2px solid #000000;
+  background-color: #26272b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px; /* Añadimos un espacio entre el logo y el título */
+}
+
+.title h1 {
+  margin: 0;
+  color: #fff;
+}
+
+/* Estilos del Contenido con CSS Grid */
+main {
+  padding: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.grid-item {
+    border: 2px solid black;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #26272b;
+  text-align: center;
+  transition: transform 0.4s;
+}
+
+.grid-item:hover {
+  transform: scale(1.01);
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos adicionales (opcional) */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post {
+  width: 1280px;
+  height: 720px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+}
+
+.selectable {
+  text-decoration: none;
+  color: white;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.title2 {
+  font-size: 30px;
+}
+
+.links {
+  text-decoration: underline;
+  color: aqua;
+}
